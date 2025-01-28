@@ -1,0 +1,93 @@
+/* General Styles */
+:root {
+    --main-color: #333; /* Define a variable */
+    --secondary-color: #2ecc71;
+    --font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.topic {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.menu ul li {
+    margin-right: 122px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.language-option {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.main-text {
+    text-align: justify;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Image Filters */
+.img-bw {
+    filter: grayscale(100%);
+}
+
+.img-sepia {
+    filter: sepia(100%);
+}
+
+.img-blur {
+    filter: blur(2px);
+}
+
+footer {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
